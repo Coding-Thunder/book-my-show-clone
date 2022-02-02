@@ -16,7 +16,7 @@ import Plays from "./pages/Plays.Page";
 
 axios.defaults.baseURL = "https://api.themoviedb.org/3";
 axios.defaults.params = {};
-axios.defaults.params["api_key"] = process.env.REACT_APP_API_KEY;
+axios.defaults.params["api_key"] = "6404397f27505c6c88e6139c65bffd21"
 
 function App() {
     return (
